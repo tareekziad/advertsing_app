@@ -90,6 +90,6 @@ def get_input():
 
 test = get_input()
 
-lr = joblib.load('lr.h5')
+lr = joblib.load('lr.pkl')
 
 st.write(lr.predict(test))
